@@ -1,75 +1,124 @@
-📊 Customer Shopping Behavior Analysis
-📌 Overview
-This project focuses on analyzing customer shopping behavior using transactional data. The goal is to uncover insights related to customer segments, spending patterns, product performance, and subscription behavior to support data-driven business decisions.
-The project follows an end-to-end data analytics workflow from data loading and cleaning to SQL analysis, dashboard creation, and business reporting.
+# 📊 Customer Shopping Behavior Analysis
 
-📂 Dataset
-•	Type: Customer transactional data
-•	Records: 3,900+ transactions
-•	Features include:
-o	Customer demographics (Age, Gender, Location, Subscription Status)
-o	Purchase details (Product, Category, Amount, Season)
-o	Shopping behavior (Discounts, Frequency, Shipping Type, Ratings)
-•	Data Issues: Missing values and inconsistent column formats handled during preprocessing
+## 📌 Overview
 
-🛠 Tools & Technologies
-•	Programming: Python (Pandas, NumPy)
-•	Databases: PostgreSQL / MySQL / SQL Server
-•	Visualization: Power BI
-•	Reporting: Power BI Report, Gamma (PPT)
-•	Other Tools: Excel, Jupyter Notebook
+This project focuses on analyzing customer shopping behavior using transactional data to uncover insights into purchasing patterns, customer segments, and revenue drivers. The end goal is to support data-driven business decisions through analysis, visualization, and reporting.
 
-🔍 Project Steps
-1.	Data Loading
-o	Imported raw dataset into Python using Pandas.
-2.	Exploratory Data Analysis (EDA)
-o	Analyzed distributions, trends, and relationships.
-o	Identified spending patterns, discounts impact, and customer behavior.
-3.	Data Cleaning & Feature Engineering
-o	Handled missing values.
-o	Standardized column names.
-o	Created new features such as age groups and purchase frequency.
-o	Removed redundant columns.
-4.	Database & SQL Analysis
-o	Loaded cleaned data into PostgreSQL / MySQL / SQL Server.
-o	Wrote SQL queries to analyze:
-	Revenue by gender and age group
-	Subscriber vs non-subscriber behavior
-	High-spending customers
-	Top products and categories
-	Discount-dependent products
-	Customer segmentation (New, Returning, Loyal)
-5.	Dashboard Development
-o	Built an interactive Power BI dashboard to visualize KPIs, trends, and insights.
-6.	Reporting & Presentation
-o	Created a structured analytical report.
-o	Designed a business presentation (PPT) using Gamma for stakeholders.
+The project demonstrates an **end-to-end data analytics workflow** using Python, SQL databases, and Power BI, making it suitable for data analyst and business analyst roles.
 
-📊 Dashboard
+---
+
+## 📂 Dataset
+
+* Contains customer purchase and demographic information
+* Includes features such as age, gender, location, product category, purchase amount, discounts, subscription status, and review ratings
+* Dataset was cleaned and prepared before analysis
+
+---
+
+## 🛠 Tools & Technologies
+
+* **Python:** Pandas, NumPy (Data Loading, Cleaning, EDA)
+* **Databases:** PostgreSQL / MySQL / SQL Server
+* **SQL:** Business analysis queries
+* **Visualization:** Power BI
+* **Reporting:** Analytical report (PDF)
+* **Presentation:** Gamma (PPT)
+* **Other:** Excel, GitHub
+
+---
+
+## 🔍 Project Steps
+
+### 1. Data Loading
+
+* Loaded the dataset into Python using Pandas
+* Performed initial inspection using `.info()` and `.describe()`
+
+### 2. Data Cleaning & Preparation
+
+* Handled missing values
+* Standardized column names
+* Performed feature engineering (e.g., age groups, purchase frequency)
+* Ensured data consistency
+
+### 3. Exploratory Data Analysis (EDA)
+
+* Analyzed spending patterns
+* Studied discount and subscription behavior
+* Identified trends across customer demographics and product categories
+
+### 4. SQL Analysis
+
+* Loaded cleaned data into SQL databases (PostgreSQL / MySQL / SQL Server)
+* Wrote SQL queries to analyze:
+
+  * Revenue by customer segments
+  * Subscriber vs non-subscriber behavior
+  * Top-performing products
+  * Discount impact on sales
+
+### 5. Dashboard Development
+
+* Built an interactive **Power BI dashboard**
+* Visualized key KPIs such as revenue trends, customer segments, and product performance
+
+### 6. Reporting & Presentation
+
+* Created a detailed analytical report summarizing insights
+* Developed a professional presentation using **Gamma** for stakeholder communication
+
+---
+
+## 📊 Dashboard
+
 The Power BI dashboard includes:
-•	Revenue trends and KPIs
-•	Customer segmentation analysis
-•	Product and category performance
-•	Subscription and shipping insights
-•	Discount impact analysis
 
-📈 Key Results & Insights
-•	Identified high-value customer segments and loyal customers.
-•	Found top-performing and highly rated products.
-•	Analyzed the impact of discounts and subscriptions on revenue.
-•	Provided actionable insights for improving marketing, loyalty programs, and product positioning.
+* Revenue and sales trends
+* Customer segmentation analysis
+* Product and category performance
+* Subscription and discount insights
 
-▶️ How to Run the Project
-1.	Clone the repository
-2.	git clone https://github.com/your-username/customer_behavior_analysis.git
-3.	Install required Python libraries
-4.	pip install pandas numpy matplotlib
-5.	Run the Python notebook/script for data cleaning and EDA.
-6.	Load the cleaned dataset into your preferred database
-o	PostgreSQL / MySQL / SQL Server
-7.	Execute SQL queries from the sql_queries folder.
-8.	Open the Power BI file to explore the dashboard.
+---
 
-📌 Author
-Sujit
-Aspiring Data Analyst | Python | SQL | Power BI
+## 📈 Results & Insights
+
+* Identified high-value customer segments
+* Found top-selling and top-rated products
+* Observed differences between subscribers and non-subscribers
+* Provided actionable recommendations for marketing and customer retention
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone this repository
+
+```bash
+git clone https://github.com/your-username/customer_behavior_analysis.git
+```
+
+2. Install required Python libraries
+
+```bash
+pip install pandas numpy
+```
+
+3. Run the Python scripts for data cleaning and EDA
+
+4. Load the cleaned dataset into your SQL database (PostgreSQL / MySQL / SQL Server)
+
+5. Execute the SQL queries provided in the `sql` folder
+
+6. Open the Power BI file to explore the dashboard
+
+---
+
+## 📎 Notes
+
+* This project is for learning and portfolio purposes
+* Dataset is either public or simulated
+
+---
+
+⭐ If you found this project useful, feel free to star the repository!
